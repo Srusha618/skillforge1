@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="/static/style.css">
+<div class="card">
+<h2>{{ level }} Modules</h2>
+{% for m in modules %}
+<a href="/topic/{{m}}"><button>{{ m }}</button></a>
+{% endfor %}
+</div>

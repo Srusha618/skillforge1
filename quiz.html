@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="/static/style.css">
+<div class="card">
+<h2>Quiz</h2>
+<form method="post">
+<p>What is Python?</p>
+<button>Submit</button>
+</form>
+{% if score %}
+<h3>Your Score: {{ score }}</h3>
+<a href="/leaderboard">View Leaderboard</a>
+{% endif %}
+</div>

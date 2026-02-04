@@ -1,0 +1,34 @@
+body {
+  font-family: 'Segoe UI';
+  background: linear-gradient(120deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  color: black;
+  width: 350px;
+  padding: 25px;
+  margin: 50px auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+input, button {
+  width: 90%;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  color: yellow;
+}
